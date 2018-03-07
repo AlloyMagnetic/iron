@@ -24,7 +24,9 @@ dependencies:
   - editor
   - help
   - image
+  - imce
   - linkit
+  - link
   - fences
   - menu_ui
   - options
@@ -56,7 +58,7 @@ dependencies:
   - user
   - redis
   - assembly
-  - alloy_file_browser
+  - alloy_assemblies
   - yoast_seo
   - focal_point
   - config_filter

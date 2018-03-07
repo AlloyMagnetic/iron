@@ -3,7 +3,6 @@ status: true
 dependencies:
   module:
     - editor
-    - entity_embed
     - pathologic
 name: 'Basic HTML'
 format: basic_html
@@ -52,9 +51,3 @@ filters:
       local_settings:
         protocol_style: full
         local_paths: ''
-  entity_embed:
-    id: entity_embed
-    provider: entity_embed
-    status: true
-    weight: 0
-    settings: {  }
