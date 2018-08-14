@@ -9,6 +9,7 @@ dependencies:
     - assembly.assembly_type.hubspot_form_embed
     - assembly.assembly_type.image_with_content
     - assembly.assembly_type.logos
+    - assembly.assembly_type.photo_gallery
     - assembly.assembly_type.rich_text
     - assembly.assembly_type.tiles
     - assembly.assembly_type.tiles_with_content
