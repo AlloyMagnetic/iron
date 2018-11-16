@@ -3,7 +3,7 @@ type: profile
 description: 'Install with Alloy default settings.'
 version: VERSION
 core: 8.x
-dependencies:
+install:
   - update
   - node
   - history
@@ -52,7 +52,6 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
-  - system
   - text
   - token
   - user
