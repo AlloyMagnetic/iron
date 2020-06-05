@@ -4,6 +4,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_billboard
+    - field.field.node.page.field_metatags
+    - field.field.node.page.field_sections
+    - field.field.node.page.field_sidebar
     - node.type.page
   module:
     - text
@@ -24,4 +28,8 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  field_billboard: true
+  field_metatags: true
+  field_sections: true
+  field_sidebar: true

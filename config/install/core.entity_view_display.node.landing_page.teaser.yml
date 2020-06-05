@@ -4,6 +4,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_billboard
+    - field.field.node.landing_page.field_form
+    - field.field.node.landing_page.field_form_title
+    - field.field.node.landing_page.field_metatags
+    - field.field.node.landing_page.field_poster_image
+    - field.field.node.landing_page.field_sections
+    - field.field.node.landing_page.field_sidebar
     - node.type.landing_page
   module:
     - text
@@ -24,4 +31,11 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_billboard: true
+  field_form: true
+  field_form_title: true
+  field_metatags: true
+  field_poster_image: true
+  field_sections: true
+  field_sidebar: true

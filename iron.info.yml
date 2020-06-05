@@ -65,6 +65,8 @@ install:
   - mailsystem
   - swiftmailer
   - ckeditor_styles_js
+  - metatag
+  - metatag_twitter_cards
 themes:
   - bootstrap
   - beryllium

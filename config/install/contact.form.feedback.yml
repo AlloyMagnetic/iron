@@ -4,7 +4,7 @@ dependencies: {  }
 id: feedback
 label: 'Website feedback'
 recipients:
-  - info@officeevolution.com
+  - admin@example.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

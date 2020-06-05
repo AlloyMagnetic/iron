@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.field.node.landing_page.body
     - field.field.node.landing_page.field_billboard
+    - field.field.node.landing_page.field_form
+    - field.field.node.landing_page.field_form_title
+    - field.field.node.landing_page.field_metatags
     - field.field.node.landing_page.field_poster_image
     - field.field.node.landing_page.field_sections
     - field.field.node.landing_page.field_sidebar
@@ -13,6 +16,7 @@ dependencies:
     - entity_reference_revisions
     - fences
     - image
+    - metatag
     - text
     - user
 id: node.landing_page.default
@@ -49,6 +53,13 @@ content:
         fences_label_tag: none
         fences_label_classes: ''
     type: entity_reference_revisions_entity_view
+    region: content
+  field_metatags:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_poster_image:
     weight: 1
@@ -99,4 +110,6 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
 hidden:
+  field_form: true
+  field_form_title: true
   links: true

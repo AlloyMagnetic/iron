@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.field.node.landing_page.body
     - field.field.node.landing_page.field_billboard
+    - field.field.node.landing_page.field_form
+    - field.field.node.landing_page.field_form_title
+    - field.field.node.landing_page.field_metatags
     - field.field.node.landing_page.field_poster_image
     - field.field.node.landing_page.field_sections
     - field.field.node.landing_page.field_sidebar
@@ -13,6 +16,7 @@ dependencies:
     - image
     - imce
     - inline_entity_form
+    - metatag
     - path
     - text
 id: node.landing_page.default
@@ -49,6 +53,13 @@ content:
       collapsed: false
     third_party_settings: {  }
     type: inline_entity_form_complex
+    region: content
+  field_metatags:
+    weight: 121
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_poster_image:
     weight: 8
@@ -103,6 +114,13 @@ content:
     weight: 4
     region: content
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
@@ -125,6 +143,14 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_form: true
+  field_form_title: true

@@ -4,11 +4,13 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_billboard
+    - field.field.node.page.field_metatags
     - field.field.node.page.field_sections
     - field.field.node.page.field_sidebar
     - node.type.page
   module:
     - inline_entity_form
+    - metatag
     - path
     - text
 id: node.page.default
@@ -45,6 +47,13 @@ content:
       collapsed: false
     third_party_settings: {  }
     type: inline_entity_form_complex
+    region: content
+  field_metatags:
+    weight: 121
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_sections:
     type: inline_entity_form_complex
@@ -89,6 +98,13 @@ content:
     weight: 4
     region: content
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
@@ -112,5 +128,11 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden: {  }
