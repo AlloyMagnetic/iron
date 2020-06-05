@@ -67,6 +67,8 @@ install:
   - ckeditor_styles_js
   - metatag
   - metatag_twitter_cards
+  - pyrite
+  - notification_bar
 themes:
   - bootstrap
   - beryllium
