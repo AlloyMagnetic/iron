@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.page.field_billboard
     - field.field.node.page.field_metatags
     - field.field.node.page.field_sections
-    - field.field.node.page.field_sidebar
     - node.type.page
   module:
     - inline_entity_form
@@ -70,21 +69,6 @@ content:
       override_labels: false
       collapsed: false
     third_party_settings: {  }
-  field_sidebar:
-    weight: 8
-    settings:
-      form_mode: default
-      label_singular: ''
-      label_plural: ''
-      collapsible: true
-      allow_new: true
-      allow_existing: true
-      match_operator: CONTAINS
-      override_labels: false
-      collapsed: false
-    third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   path:
     type: path
     weight: 6

@@ -3,20 +3,20 @@ status: true
 dependencies:
   config:
     - assembly.assembly_type.call_to_action
-    - assembly.assembly_type.columns
-    - assembly.assembly_type.content_with_aside
-    - assembly.assembly_type.hubspot_cta_embed
     - assembly.assembly_type.hubspot_form_embed
-    - assembly.assembly_type.image_with_content
-    - assembly.assembly_type.logos
-    - assembly.assembly_type.photo_gallery
+    - assembly.assembly_type.image
+    - assembly.assembly_type.layout_columns
+    - assembly.assembly_type.layout_grid
+    - assembly.assembly_type.layout_split
+    - assembly.assembly_type.media
     - assembly.assembly_type.rich_text
-    - assembly.assembly_type.tiles
-    - assembly.assembly_type.tiles_with_content
+    - assembly.assembly_type.webform
     - field.storage.node.field_sections
     - node.type.page
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: ZxrQ6cv6bR03mSrLvjOjVTCWKZ7YBFcCvtuacubnqMw
 id: node.page.field_sections
 field_name: field_sections
 entity_type: node
@@ -32,17 +32,17 @@ settings:
   handler_settings:
     target_bundles:
       call_to_action: call_to_action
-      columns: columns
-      content_with_aside: content_with_aside
-      hubspot_cta_embed: hubspot_cta_embed
       hubspot_form_embed: hubspot_form_embed
-      image_with_content: image_with_content
-      logos: logos
+      image: image
+      layout_columns: layout_columns
+      layout_grid: layout_grid
+      layout_split: layout_split
+      media: media
       rich_text: rich_text
-      tiles: tiles
-      tiles_with_content: tiles_with_content
+      webform: webform
     sort:
       field: _none
+      direction: ASC
     auto_create: false
-    auto_create_bundle: columns
+    auto_create_bundle: call_to_action
 field_type: entity_reference_revisions
