@@ -62,8 +62,8 @@ install:
   - focal_point
   - config_filter
   - config_ignore
-  - mailsystem
-  - swiftmailer
+  - symfony_mailer
+  - symfony_mailer_bc
   - ckeditor_styles_js
   - metatag
   - metatag_twitter_cards
