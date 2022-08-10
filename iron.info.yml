@@ -73,7 +73,7 @@ install:
   - media_library
   - alloy_assemblies
 themes:
-  - bootstrap
-  - beryllium
+  - drulma
   - claro
   - sitetheme
+  - adamantine
