@@ -60,6 +60,7 @@
     "drupal/token": "^1.9",
     "drupal/video": "^1.4",
     "drupal/webform": "^6.0",
-    "drupal/swiftmailer": "^2.2"
+    "drupal/swiftmailer": "^2.2",
+    "drupal/yoast_seo": "^1.7"
   }
 }
