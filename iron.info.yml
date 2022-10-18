@@ -77,7 +77,7 @@ install:
   - migrate_source_csv
   - menu_link_attributes
 themes:
+  - adamantine
   - bootstrap
-  - beryllium
   - claro
   - sitetheme
