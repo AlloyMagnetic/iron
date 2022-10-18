@@ -84,6 +84,6 @@ function iron_install() {
 
   \Drupal::configFactory()
     ->getEditable('system.theme')
-    ->set('admin', 'beryllium')
+    ->set('admin', 'adamantine')
     ->save();
 }

@@ -78,6 +78,6 @@ install:
   - menu_link_attributes
 themes:
   - adamantine
-  - bootstrap
   - claro
   - sitetheme
+  - drulma
