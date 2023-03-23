@@ -62,8 +62,8 @@ install:
   - focal_point
   - config_filter
   - config_ignore
-  - mailsystem
-  - swiftmailer
+  - symfony_mailer
+  - symfony_mailer_bc
   - ckeditor_styles_js
   - metatag
   - metatag_twitter_cards
@@ -72,8 +72,12 @@ install:
   - media
   - media_library
   - alloy_assemblies
+  - migrate_plus
+  - migrate_tools
+  - migrate_source_csv
+  - menu_link_attributes
 themes:
-  - drulma
+  - adamantine
   - claro
   - sitetheme
-  - adamantine
+  - drulma
