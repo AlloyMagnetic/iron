@@ -60,7 +60,6 @@ install:
   - config_filter
   - config_ignore
   - mailsystem
-  - swiftmailer
   - metatag
   - metatag_twitter_cards
   - pyrite
