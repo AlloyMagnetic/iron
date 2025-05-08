@@ -1,6 +1,6 @@
 name: Iron
 type: profile
-description: 'Install with Alloy default settings.'
+description: 'Install with Alloy default settings - CKE5'
 version: VERSION
 core: 8.x
 core_version_requirement: ^8 || ^9 || ^10 || ^11
