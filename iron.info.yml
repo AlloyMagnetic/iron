@@ -47,7 +47,6 @@ install:
   - webform_ui
   - views
   - views_ui
-  - tour
   - automated_cron
   - text
   - token
